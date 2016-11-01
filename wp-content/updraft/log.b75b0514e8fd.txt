@@ -1,0 +1,173 @@
+0000.000 (0) Opened log file at time: Tue, 01 Nov 2016 14:03:41 +0000 on http://work01.argeiger.de
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.23 WP: 4.6.1 PHP: 5.6.27 (cgi-fcgi, Linux www335.your-server.de 3.16.0-4-amd64 #1 SMP Debian 3.16.36-1+deb8u2 (2016-10-19) x86_64) MySQL: 5.5.52 WPLANG: de_DE Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 28.6M | 29.5M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 1067621 MB
+0000.009 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.020 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.023 (0) Set semaphore last lock (fd) time to 2016-11-01 14:03:41
+0000.024 (0) Semaphore lock (fd) complete
+0000.031 (0) Backup run: resumption=0, nonce=b75b0514e8fd, begun at=1478009021 (0s ago), job type=backup
+0000.033 (0) Scheduling a resumption (1) after 300 seconds (1478009321) in case this run gets aborted
+0000.047 (0) Checking if we have a zip executable available
+0000.048 (0) Testing: /usr/bin/zip
+0000.052 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.053 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.055 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.056 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.057 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.061 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.063 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.073 (0) Working binary zip found: /usr/bin/zip
+0000.076 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.077 (0) Creation of backups of directories: beginning
+0000.081 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.104 (0) Total entities for the zip file: 174 directories, 1065 files (0 skipped as non-modified), 7.4 MB
+0000.108 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.111 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.115 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.119 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.123 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.124 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.4 MB, 1065 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.349 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-plugins.zip.tmp: size is now: 1.80 MB
+0000.354 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-plugins.zip.tmp: 600 files added (on-disk size: 1835.8 KB)
+0000.358 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-plugins.zip.tmp: 700 files added (on-disk size: 1835.8 KB)
+0000.361 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-plugins.zip.tmp: 800 files added (on-disk size: 1835.8 KB)
+0000.365 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-plugins.zip.tmp: 900 files added (on-disk size: 1835.8 KB)
+0000.368 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-plugins.zip.tmp: 1000 files added (on-disk size: 1835.8 KB)
+0000.369 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 1065 files batched, 501 (1002) added so far); re-opening (prior size: 1835.8 KB)
+0000.456 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-plugins.zip.tmp: size is now: 2.40 MB
+0000.535 (0) Created plugins zip (0) - 2531.8 KB in 0.5 s (5594.5 KB/s) (SHA1 checksum: 68177ae3bdde1d26a6a7dcdbc5cc5265a4428e1f)
+0000.539 (0) Beginning creation of dump of themes (split every: 400 MB)
+0000.556 (0) Total entities for the zip file: 91 directories, 831 files (0 skipped as non-modified), 8.4 MB
+0000.560 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.564 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.568 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.572 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.576 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.577 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 831 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.475 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-themes.zip.tmp: size is now: 1.80 MB
+0001.484 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-themes.zip.tmp: 600 files added (on-disk size: 1800 KB)
+0001.488 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-themes.zip.tmp: 700 files added (on-disk size: 1800 KB)
+0001.492 (0) Zip: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-themes.zip.tmp: 800 files added (on-disk size: 1800 KB)
+0002.033 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-themes.zip.tmp: size is now: 5.00 MB
+0002.062 (0) Created themes zip (0) - 5075 KB in 1.5 s (3334.3 KB/s) (SHA1 checksum: 687b604d8f4eb3fc0eb8d2d10c405c0d50aecbaf)
+0002.066 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0002.067 (0) Looking for candidates to back up in: /usr/www/users/argeig/work01/wp-content/uploads
+0002.068 (0) finding files: 2016: adding to list (1)
+0002.069 (0) finding files: 2014: adding to list (2)
+0002.069 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0002.073 (0) Total entities for the zip file: 5 directories, 54 files (0 skipped as non-modified), 1 MB
+0002.122 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-uploads.zip.tmp: size is now: 1.00 MB
+0002.133 (0) Created uploads zip (0) - 1015.8 KB in 0.1 s (16329.7 KB/s) (SHA1 checksum: 98d53b78098002ff9c9caebe6e24f120c8cecb5a)
+0002.137 (0) Beginning backup of other directories found in the content directory (index: 0)
+0002.139 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0002.140 (0) Looking for candidates to back up in: /usr/www/users/argeig/work01/wp-content
+0002.141 (0) finding files: themes: skipping: this is the themes directory
+0002.143 (0) finding files: upgrade: skipping: excluded by options
+0002.144 (0) finding files: index.php: adding to list (1)
+0002.145 (0) finding files: plugins: skipping: this is the plugins directory
+0002.146 (0) finding files: updraft: skipping: this is the updraft directory
+0002.147 (0) finding files: languages: adding to list (2)
+0002.149 (0) finding files: uploads: skipping: this is the uploads directory
+0002.153 (0) Total entities for the zip file: 3 directories, 19 files (0 skipped as non-modified), 1.8 MB
+0002.340 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-others.zip.tmp: size is now: 0.50 MB
+0002.346 (0) Created others zip (0) - 558.3 KB in 0.2 s (2856.7 KB/s) (SHA1 checksum: f540e5bf3e79e6392fd24352f73ee8c6a41cf012)
+0002.352 (0) Saving backup status to database (elements: 8)
+0002.356 (0) Beginning creation of database dump (WordPress DB)
+0002.358 (0) Testing: /usr/bin/mysqldump
+0002.429 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1193 bytes total)
+0002.432 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0002.438 (0) Table wp_options: Total expected rows (approximate): 138
+0002.455 (0) Table wp_options: Total rows added: 178 in 0.02 seconds
+0002.457 (0) Table wp_options: finishing file (backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_options.table.gz - 39.4 KB)
+0002.461 (0) Table wp_users: Total expected rows (approximate): 2
+0002.465 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0002.466 (0) Table wp_users: finishing file (backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_users.table.gz - 0.7 KB)
+0002.471 (0) Table wp_usermeta: Total expected rows (approximate): 36
+0002.475 (0) Table wp_usermeta: Total rows added: 36 in 0.00 seconds
+0002.476 (0) Table wp_usermeta: finishing file (backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_usermeta.table.gz - 1.4 KB)
+0002.480 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0002.483 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0002.485 (0) Table wp_commentmeta: finishing file (backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0002.489 (0) Table wp_comments: Total expected rows (approximate): 4
+0002.494 (0) Table wp_comments: Total rows added: 4 in 0.00 seconds
+0002.495 (0) Table wp_comments: finishing file (backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_comments.table.gz - 1 KB)
+0002.499 (0) Table wp_links: Total expected rows (approximate): 0
+0002.503 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0002.504 (0) Table wp_links: finishing file (backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_links.table.gz - 0.4 KB)
+0002.509 (0) Table wp_postmeta: Total expected rows (approximate): 106
+0002.523 (0) Table wp_postmeta: Total rows added: 160 in 0.01 seconds
+0002.525 (0) Table wp_postmeta: finishing file (backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_postmeta.table.gz - 12.6 KB)
+0002.530 (0) Table wp_posts: Total expected rows (approximate): 95
+0002.539 (0) Table wp_posts: Total rows added: 65 in 0.01 seconds
+0002.542 (0) Table wp_posts: finishing file (backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_posts.table.gz - 3.9 KB)
+0002.546 (0) Table wp_term_relationships: Total expected rows (approximate): 49
+0002.550 (0) Table wp_term_relationships: Total rows added: 49 in 0.00 seconds
+0002.551 (0) Table wp_term_relationships: finishing file (backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0002.556 (0) Table wp_term_taxonomy: Total expected rows (approximate): 24
+0002.560 (0) Table wp_term_taxonomy: Total rows added: 24 in 0.00 seconds
+0002.561 (0) Table wp_term_taxonomy: finishing file (backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_term_taxonomy.table.gz - 0.6 KB)
+0002.565 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0002.567 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0002.569 (0) Table wp_termmeta: finishing file (backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_termmeta.table.gz - 0.4 KB)
+0002.573 (0) Table wp_terms: Total expected rows (approximate): 24
+0002.578 (0) Table wp_terms: Total rows added: 24 in 0.00 seconds
+0002.579 (0) Table wp_terms: finishing file (backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_terms.table.gz - 0.7 KB)
+0002.582 (0) Table wp_wdpslayer: Total expected rows (approximate): 2
+0002.587 (0) Table wp_wdpslayer: Total rows added: 2 in 0.00 seconds
+0002.588 (0) Table wp_wdpslayer: finishing file (backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_wdpslayer.table.gz - 0.8 KB)
+0002.592 (0) Table wp_wdpsslide: Total expected rows (approximate): 2
+0002.596 (0) Table wp_wdpsslide: Total rows added: 2 in 0.00 seconds
+0002.597 (0) Table wp_wdpsslide: finishing file (backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_wdpsslide.table.gz - 0.5 KB)
+0002.602 (0) Table wp_wdpsslider: Total expected rows (approximate): 1
+0002.608 (0) Table wp_wdpsslider: Total rows added: 1 in 0.01 seconds
+0002.609 (0) Table wp_wdpsslider: finishing file (backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_wdpsslider.table.gz - 1.4 KB)
+0002.612 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_options.table.gz (1/15): adding to final database dump
+0002.620 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_users.table.gz (2/15): adding to final database dump
+0002.622 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_usermeta.table.gz (3/15): adding to final database dump
+0002.623 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_commentmeta.table.gz (4/15): adding to final database dump
+0002.624 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_comments.table.gz (5/15): adding to final database dump
+0002.626 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_links.table.gz (6/15): adding to final database dump
+0002.627 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_postmeta.table.gz (7/15): adding to final database dump
+0002.635 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_posts.table.gz (8/15): adding to final database dump
+0002.637 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_term_relationships.table.gz (9/15): adding to final database dump
+0002.638 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_term_taxonomy.table.gz (10/15): adding to final database dump
+0002.639 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_termmeta.table.gz (11/15): adding to final database dump
+0002.641 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_terms.table.gz (12/15): adding to final database dump
+0002.642 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_wdpslayer.table.gz (13/15): adding to final database dump
+0002.643 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_wdpsslide.table.gz (14/15): adding to final database dump
+0002.644 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db-table-wp_wdpsslider.table.gz (15/15): adding to final database dump
+0002.646 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db.gz: finished writing out complete database file (48 KB)
+0002.651 (0) Total database tables backed up: 15 (backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db.gz, size: 62666, checksum (SHA1): 4bb7fa776e4fe2b5ff0bc9b6cdb2dd318d175a4f)
+0002.658 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0002.659 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0002.660 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0002.661 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-others.zip: others: This file has not yet been successfully uploaded: will queue
+0002.662 (0) backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db.gz: db: This file has not yet been successfully uploaded: will queue
+0002.663 (0) Saving backup history. Total backup size: 9 MB
+0002.667 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0002.670 (0) Cloud backup selection (1/1): none (last)
+0002.671 (0) No remote despatch: user chose no remote backup service
+0002.673 (0) Recording as successfully uploaded: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-plugins.zip (5b0a50e1df392531bd5607772f4bfe96)
+0002.680 (0) Recording as successfully uploaded: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-themes.zip (061659bca40a1ba31efd5e24112ce223)
+0002.685 (0) Recording as successfully uploaded: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-uploads.zip (7ea8c7334d0062618753e653cb20bde5)
+0002.690 (0) Recording as successfully uploaded: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-others.zip (3e84995b6ccaa94fbc9a2233385fe47a)
+0002.695 (0) Recording as successfully uploaded: backup_2016-11-01-1503_Leaderseye_b75b0514e8fd-db.gz (8b50c9a20944b610e9e28a7ae145a6bb)
+0002.703 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0002.704 (0) Number of backup sets in history: 1; groups (db): 1
+0002.706 (0) Examining (for databases) backup set with group_id=0, nonce=b75b0514e8fd, datestamp=1478009021 (Nov 01 2016 14:03:41)
+0002.707 (0) This backup set is the backup set just made, so will not be deleted.
+0002.708 (0) Number of backup sets in history: 1; groups (files): 1
+0002.709 (0) Examining (for files) backup set with nonce=b75b0514e8fd, datestamp=1478009021 (Nov 01 2016 14:03:41)
+0002.710 (0) This backup set is the backup set just made, so will not be deleted.
+0002.711 (0) This backup set is the backup set just made, so will not be deleted.
+0002.711 (0) This backup set is the backup set just made, so will not be deleted.
+0002.711 (0) This backup set is the backup set just made, so will not be deleted.
+0002.711 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0002.712 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0002.716 (0) Resume backup (b75b0514e8fd, 0): finish run
+0002.719 (0) Decremented the semaphore (fd) by 1
+0002.720 (0) Semaphore (fd) unlocked
+0002.721 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0002.725 (0) The backup apparently succeeded and is now complete
+0002.727 (0) No email will/can be sent - the user has not configured an email address.
+0002.728 (0) Die Sicherung war anscheinend erfolgreich und ist nun vollständig
