@@ -20,3 +20,4 @@ echo "привет";
 echo "пщ";
 echo "hello";
 echo "hello master";
+echo "hello1";
