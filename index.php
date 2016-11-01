@@ -16,8 +16,3 @@ define('WP_USE_THEMES', true);
 /** Loads the WordPress Environment and Template */
 require( dirname( __FILE__ ) . '/wp-blog-header.php' );
 
-echo "привет";
-echo "пщ";
-echo "hello";
-echo "hello master";
-echo "hello1";
