@@ -599,8 +599,8 @@ input[type="submit"].outline:hover {
 .title hr {
 	display: inline-block;
 	width: 40px;
-	height: 2px;
-	background: #cccccc;
+	height: 4px;
+	background: #d51030;
 	margin-bottom: 75px;
 }
 
@@ -1288,6 +1288,10 @@ a.arrow-link:hover:before {
 	color: #d51030;
 }
 
+.icon-nav b:hover {
+	color: #d51030;
+}
+
 .icon-nav b {
 	font-family: 'Raleway', 'Open Sans', Helvetica, Arial, sans-serif;
 	font-style: normal;
@@ -1859,3 +1863,4 @@ bottom: -25px;
 	}
 
 }
+
