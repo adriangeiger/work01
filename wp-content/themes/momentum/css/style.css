@@ -1862,3 +1862,20 @@ bottom: -25px;
 	}
 
 }
+
+/* This is gonna define the layout of search box */ 
+@media screen and (min-width: 600px) {
+.header-search {
+display: block;
+float:right;
+margin-top:2px;
+margin-bottom:-12px;
+margin-right:3px;
+}}
+
+/* This is definition of search button */
+#searchsubmit {
+background-color: #fff;
+color: #000;
+border: 1px solid #ff7700
+}
