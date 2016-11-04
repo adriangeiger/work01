@@ -1357,6 +1357,7 @@ a.arrow-link:hover:before {
 }
 
 .service-item .subline {
+	display: none;
 	font-style: normal;
 	font-size: 13px;
 	font-weight: 400;
@@ -1365,11 +1366,12 @@ a.arrow-link:hover:before {
 }
 
 .service-item .serif {
+	display: none;
 	color: #fff;
 }
 
 .service-item hr {
-	display: inline-block;
+	display: none;
 	width: 30px;
 	height: 2px;
 	background: #cccccc;
@@ -1377,11 +1379,12 @@ a.arrow-link:hover:before {
 }
 
 .service-item ul {
+	display: none; 
 	margin-bottom: 25px;
 }
 
 .service-item i {
-	display: inline-block;
+	display: none;
 	width: 80px;
 	height: 80px;
 	line-height: 80px;
