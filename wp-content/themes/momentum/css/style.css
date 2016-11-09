@@ -906,8 +906,8 @@ a.arrow-link:hover:before {
 	top: 0;
 	display: block;
 	width: 100%;
-	background: #111111;
-	background: rgba(7,7,7,0.9);
+	background: #fff;
+	background: #fff;
 	z-index: 99;
 	-webkit-transition: all .2s;
 	   -moz-transition: all .2s;
@@ -1017,8 +1017,8 @@ a.arrow-link:hover:before {
 .top-bar .menu ul ul {
 	position: absolute;
 	top: 100%;
-	background: #111111;
-	background: rgba(7,7,7,0.9);
+	background: #fff;
+	background: #fff;
 	padding: 0 0 10px 0;
 	min-width: 180px;
 }
@@ -1185,8 +1185,8 @@ a.arrow-link:hover:before {
 
 /* Transparent top bar */
 .top-bar.tb-transp {
-	background: #none;
-	background: rgba(7,7,7,0.0);
+	background: #fff;
+	background: #fff;
 }
 
 .tb-transp .top-bar .menu ul li a {
@@ -1357,6 +1357,7 @@ a.arrow-link:hover:before {
 }
 
 .service-item .subline {
+	display: none;
 	font-style: normal;
 	font-size: 13px;
 	font-weight: 400;
@@ -1365,11 +1366,12 @@ a.arrow-link:hover:before {
 }
 
 .service-item .serif {
+	display: none;
 	color: #fff;
 }
 
 .service-item hr {
-	display: inline-block;
+	display: none;
 	width: 30px;
 	height: 2px;
 	background: #cccccc;
@@ -1377,11 +1379,12 @@ a.arrow-link:hover:before {
 }
 
 .service-item ul {
+	display: none; 
 	margin-bottom: 25px;
 }
 
 .service-item i {
-	display: inline-block;
+	display: none;
 	width: 80px;
 	height: 80px;
 	line-height: 80px;
@@ -1858,4 +1861,21 @@ bottom: -25px;
 		margin-bottom: 5px;
 	}
 
+}
+
+/* This is gonna define the layout of search box */ 
+@media screen and (min-width: 600px) {
+.header-search {
+display: block;
+float:right;
+margin-top:2px;
+margin-bottom:-12px;
+margin-right:3px;
+}}
+
+/* This is definition of search button */
+#searchsubmit {
+background-color: #fff;
+color: #000;
+border: 1px solid #ff7700
 }
