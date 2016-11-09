@@ -945,8 +945,8 @@ a.arrow-link:hover:before {
 	float: left;
 	text-align: left;
 	width: auto;
-	max-height: 30px;
-	margin: 10px 10px 0 0;
+	max-height: 110px;
+	margin: 0px 10px 0 0;
 }
 
 /* Hiding the the toggle */ 
