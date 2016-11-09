@@ -576,9 +576,7 @@ input[type="submit"].outline:hover {
 }
 
 /* Fixed backgrounds only on non-touch devices */
-.bg-img.fixed {
-	background-attachment: scroll;
-}
+
 
 .no-touch .bg-img.fixed {
 	background-attachment: fixed;
