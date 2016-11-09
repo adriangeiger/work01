@@ -1199,8 +1199,8 @@ a.arrow-link:hover:before {
 }
 
 .tb-small.tb-transp {
-	background: #111111;
-	background: rgba(7,7,7,0.9);
+	background: #fff;
+	background: #fff;
 }
 
 /* Responsive settings for the transparent top bar */
