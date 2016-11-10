@@ -1640,6 +1640,7 @@ bottom: -25px;
 
 /* Social footer */
 .social-footer {
+	display: none;
 	background: #111111;
 	padding-top: 75px;
 	padding-bottom: 50px;
@@ -1677,10 +1678,10 @@ bottom: -25px;
 
 /* Footer */
 .footer {
-	background: #111111;
+	background: #fff;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	text-align: center;
+	text-align: right;
 }
 
 /* Footer promo */
