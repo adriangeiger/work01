@@ -1210,7 +1210,7 @@ a.arrow-link:hover:before {
 
 	.top-bar.tb-transp {
 		background: #111111;
-		background: rgba(7,7,7,0.9);
+		background: #fff;
 	}
 
 }
