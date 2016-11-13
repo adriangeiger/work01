@@ -591,9 +591,10 @@ input[type="submit"].outline:hover {
 
 .title h1,
 .title h2 {
-	font-size: 16px;
+	font-size: 35px;
 	line-height: 25px;
 	margin-bottom: 15px;
+	color: #5b767b;
 }
 
 .title hr {
