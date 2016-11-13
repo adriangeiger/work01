@@ -11,6 +11,7 @@
 		<title><?php $t->header->title(); ?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 		<meta name="format-detection" content="telephone=no" />
+		<script type="text/javascript" src="/wp-content/themes/momentum/js/lib/jquery.min.js" />
 
 		<!--[if lt IE 9]>
 		<script type="text/javascript">/*@cc_on'abbr article aside audio canvas details figcaption figure footer header hgroup mark meter nav output progress section summary subline time video'.replace(/\w+/g,function(n){document.createElement(n)})@*/</script>

@@ -37,6 +37,16 @@ class PeThemeViewLayoutModuleMomentumProcess extends PeThemeViewLayoutModuleCont
 					"description" => __("Background image of the section.",'Pixelentity Theme/Plugin'),
 					"default"     => '',
 				),
+				"type" => array(
+					"label"       => __("Type",'Pixelentity Theme/Plugin'),
+					"type"        => "RadioUI",
+					"description" => __("Choose between insights and about type.",'Pixelentity Theme/Plugin'),
+					"options"     => array(
+						__( 'Insights' ,'Pixelentity Theme/Plugin')   => 'insights',
+						__( 'About' ,'Pixelentity Theme/Plugin')  => 'about',
+					),
+					"default"     => 'insights',
+				),
 				"typography" => array(
 					"label"       => __("Typography color",'Pixelentity Theme/Plugin'),
 					"type"        => "RadioUI",
