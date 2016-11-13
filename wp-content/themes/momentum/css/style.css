@@ -1880,3 +1880,115 @@ background-color: #fff;
 color: #000;
 border: 1px solid #ff7700
 }
+
+.news-square{
+	position: relative;
+	display: block;
+	background: #ffffff;
+	padding: 15px 15px 40px;
+	text-align: center;
+	max-height: 250px;
+	cursor: pointer;
+}
+
+.news-square .title{
+	font-size: 1.4em;
+	margin: 25px 0;
+}
+
+.news-square:hover .title{
+	color: #d51030;
+}
+
+.news-square .content{
+	height: 130px;
+	overflow-y: hidden;
+	line-height: 1.5em;
+	color: #000;
+}
+
+.insight-item{
+	height: 250px !important;
+}
+
+.container {
+	margin: 3%;
+	text-align: center;
+}
+.item-container{
+	width: 29%;
+	display: inline-block;
+	margin: 2%;
+	cursor: pointer;
+}
+
+.item-container input[type=checkbox] {
+	display: none;
+}
+
+.switcher{
+	cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+	.item-container{
+		width: 40%;
+	}
+}
+@media screen and (max-width: 600px) {
+	.item-container{
+		width: 70%;
+	}
+
+}
+
+.circle {
+	width: 100%;
+	background: #b3b3b3;
+	overflow: hidden; /* clearfix */
+	border-radius: 50%;
+}
+
+.circle:hover {
+	background: #d51030;
+}
+
+.circle:before {
+	content: "";
+	padding-top: 100%;
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.square {
+	width: 100%;
+	background: #8c8c8c;
+	overflow: hidden; /* clearfix */
+}
+.square:hover {
+	background: #d51030;
+}
+
+.square:before {
+	content: "";
+	padding-top: 100%;
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.item-content{
+	display: none;
+}
+
+.item-title{
+	color: #fff;
+	font-size: 1.6em;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.item-container input[type=checkbox]:checked ~ .swithcer {
+display: none;
+}
