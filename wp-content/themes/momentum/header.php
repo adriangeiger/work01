@@ -40,9 +40,9 @@
 				<div class="twelve col">
 
 					<?php $template = is_page() ? $content->pageTemplate() : false; ?>
-
+					<div class="header-search"><?php get_search_form(); ?></div>
 					<?php get_template_part( "menu" ); ?>
-<div class="header-search"><?php get_search_form(); ?></div>
+
 				</div>
 			</div>
 		</div>
