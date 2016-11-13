@@ -41,9 +41,11 @@
 
                         <div class="item-container">
                             <div class="circle">
-                                <!--<div class="bgr-number"><?/*= $cnt; */?></div>-->
-                                <div class="item-title"><?php echo $item->title; ?></div>
-                                <div class="item-content"><?php echo $item->description; ?></div>
+                                <div class="item-content">
+                                    <div class="bgr-number"><?= $cnt; ?></div>
+                                    <div class="item-title"><?php echo $item->title; ?></div>
+                                    <div class="item-description"><?php echo $item->description; ?></div>
+                                </div>
                             </div>
                         </div>
                         <? $cnt++ ?>
@@ -54,12 +56,13 @@
                         <div class="item-container">
                             <input id="about-<?= $cnt; ?>" type="checkbox">
                             <label for="about-<?= $cnt; ?>" class="switcher">
-                            <div class="square">
-
-                                <div class="item-title"><?php echo $item->title; ?></div>
-                                <div class="item-content"><?php echo $item->description; ?></div>
-                            </div>
-                                </label>
+                                <div class="square">
+                                    <div class="item-content">
+                                        <div class="item-title"><?php echo $item->title; ?></div>
+                                        <div class="item-description"><?php echo $item->description; ?></div>
+                                    </div>
+                                </div>
+                            </label>
                         </div>
                         <? $cnt++ ?>
                     <?php endforeach; ?>

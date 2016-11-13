@@ -1978,11 +1978,11 @@ border: 1px solid #ff7700
 	vertical-align: middle;
 }
 
-.item-content{
+.item-description{
 	display: none;
 }
 
-.item-title{
+.item-content{
 	color: #fff;
 	font-size: 1.6em;
 	display: inline-block;
