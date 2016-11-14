@@ -310,14 +310,32 @@ Tags: photoblogging
 
 
 /* This is gonna define the layout of search box */ 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
 .header-search {
 display: block;
 float:right;
-margin-top:2px;
+margin-top:14px;
 margin-bottom:-12px;
 margin-right:3px;
-}}
+margin-left: 20px;
+}
+
+input {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+	/*border: 0.2em solid rgba(0,0,0,0.3);*/
+    border-radius: 4px;
+    background-color:rgba(0,0,0,0.3);
+    padding-left: 5px;
+    font-family: 'Sans_Plain'!important;;
+    font-weight: 700;
+
+    
+
+}
+
+}
 
 /* This is definition of search button */
 #searchsubmit {
