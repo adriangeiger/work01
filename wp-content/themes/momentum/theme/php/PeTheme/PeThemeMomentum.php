@@ -356,6 +356,7 @@ class PeThemeMomentum extends PeThemeController {
 			PeGlobal::$config["views"] = array(
 				"LayoutModuleMomentumAbout",
 				"LayoutModuleMomentumBlog",
+				"LayoutModuleMomentumNews",
 				"LayoutModuleMomentumCalltoaction",
 				"LayoutModuleMomentumColumns",
 				"LayoutModuleMomentumIntro",

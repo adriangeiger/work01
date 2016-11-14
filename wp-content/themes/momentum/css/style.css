@@ -1,4 +1,5 @@
 /*
+
 Theme Name: Momentum
 Theme URI: http://themeforest.net
 Description: Responsive One Page Portfolio
@@ -8,10 +9,13 @@ Author URI: http://themeforest.net/user/bitfade
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: photoblogging
+
 */
 
 /*
+
 	Style.css
+
 	01. Basics
 	02. Top bar
 	03. Home
@@ -25,6 +29,7 @@ Tags: photoblogging
 	11. Footer
 	12. 404 Page
 	13. Responsive settings
+
 */
 
 
@@ -380,7 +385,7 @@ a i {
 
 /* Quotes */
 blockquote {
-	font-family: Georgia, serif;
+	font-family: 'Sans_Extra_Light_Italic', serif;
 	font-style: italic;
 	font-weight: 400;
 	font-size: 1.25em;
@@ -392,7 +397,7 @@ blockquote {
 
 blockquote small {
 	display: block;
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Sans_Plain', Helvetica, Arial, sans-serif;
 	font-size: 0.75em;
 	font-weight: 400;
 	font-style: normal;
@@ -1219,11 +1224,9 @@ a.arrow-link:hover:before {
 }
 
 /* Transparent top bar */
-/* Transparent top bar */
 .top-bar.tb-transp {
 	background: #fff;
-	background: #fff;
-background-image: url("http://work01.argeiger.de/wp-content/uploads/2014/06/LeadersEye_Background_hell.jpg");
+	background-image: url("/wp-content/uploads/2014/06/LeadersEye_Background_hell.jpg");
 }
 
 
@@ -1399,7 +1402,6 @@ background-image: url("http://work01.argeiger.de/wp-content/uploads/2014/06/Lead
 }
 
 .service-item .subline {
-	display: none;
 	font-style: normal;
 	font-size: 13px;
 	font-weight: 400;
@@ -1408,12 +1410,11 @@ background-image: url("http://work01.argeiger.de/wp-content/uploads/2014/06/Lead
 }
 
 .service-item .serif {
-	display: none;
 	color: #fff;
 }
 
 .service-item hr {
-	display: none;
+	display: inline-block;
 	width: 30px;
 	height: 2px;
 	background: #cccccc;
@@ -1421,12 +1422,11 @@ background-image: url("http://work01.argeiger.de/wp-content/uploads/2014/06/Lead
 }
 
 .service-item ul {
-	display: none; 
 	margin-bottom: 25px;
 }
 
 .service-item i {
-	display: none;
+	display: inline-block;
 	width: 80px;
 	height: 80px;
 	line-height: 80px;
@@ -1596,9 +1596,8 @@ bottom: -25px;
 
 /* ==================== 10. Contact ==================== */
 .contact {
-       
-        background: #777777;
-background-image: url("http://work01.argeiger.de/wp-content/uploads/2014/06/LeadersEye_Background_hell.jpg");
+	background: #777777;
+	background-image: url("/wp-content/uploads/2014/06/LeadersEye_Background_hell.jpg");
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
@@ -1684,7 +1683,6 @@ background-image: url("http://work01.argeiger.de/wp-content/uploads/2014/06/Lead
 
 /* Social footer */
 .social-footer {
-        display: none;
 	background: #111111;
 	padding-top: 75px;
 	padding-bottom: 50px;
@@ -2100,8 +2098,8 @@ font-family: MyWebfont, Verdana, sans-serif;
  	padding-bottom: 300%;
     border-radius: 50%;
     overflow:hidden;
-    
-    background: #b3b3b3; 
+
+    background: #b3b3b3;
     box-shadow: none;
 }
 .round-button-circle:hover {
@@ -2115,7 +2113,7 @@ font-family: MyWebfont, Verdana, sans-serif;
     padding-bottom:50%;
 	line-height:1em;
 	margin-top:-0.5em;
-    
+
 	text-align:center;
 	color:#e2eaf3;
     font-family:Verdana;
