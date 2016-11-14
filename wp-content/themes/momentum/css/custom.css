@@ -52,7 +52,7 @@
 }
 
 .has-splash .pagebuilder-content {
-	padding: 0 0 60px;
+	padding: 0 0 0;
 }
 
 html {
@@ -120,9 +120,9 @@ html {
 }
 
 .bg-image-cover {
-	background-position: center center;
+	/*background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 .section-content-wrap {
