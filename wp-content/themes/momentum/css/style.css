@@ -408,7 +408,7 @@ blockquote small:before {
 }
 
 q {
-	quotes: "\"" "\"" """ """;
+	quotes: "\"" "\"" "\"" "\"";
 }
 
 q:before {
@@ -1398,10 +1398,11 @@ a.arrow-link:hover:before {
 	display: block;
 	text-align: center;
 	/*background: #ffffff;
-	padding-bottom: 35px;*/
+    padding-bottom: 35px;*/
 }
 
 .service-item .subline {
+	display: none;
 	font-style: normal;
 	font-size: 13px;
 	font-weight: 400;
@@ -1410,11 +1411,12 @@ a.arrow-link:hover:before {
 }
 
 .service-item .serif {
+	display: none;
 	color: #fff;
 }
 
 .service-item hr {
-	display: inline-block;
+	display: none;
 	width: 30px;
 	height: 2px;
 	background: #cccccc;
@@ -1422,11 +1424,12 @@ a.arrow-link:hover:before {
 }
 
 .service-item ul {
+	display: none;
 	margin-bottom: 25px;
 }
 
 .service-item i {
-	display: inline-block;
+	display: none;
 	width: 80px;
 	height: 80px;
 	line-height: 80px;
@@ -1434,22 +1437,22 @@ a.arrow-link:hover:before {
 	font-size: 48px;
 	color: #cccccc;
 	-webkit-border-radius: 40px;
-	   -moz-border-radius: 40px;
-			border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
 	-webkit-transition: all .2s;
-	   -moz-transition: all .2s;
-		-ms-transition: all .2s;
-		 -o-transition: all .2s;
-			transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
 }
 
 .service-item:hover > i {
 	color: #ff4800;
 	-webkit-transition: all .2s;
-	   -moz-transition: all .2s;
-		-ms-transition: all .2s;
-		 -o-transition: all .2s;
-			transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
 }
 
 .service-item:hover > a.arrow-link:before {
@@ -1472,7 +1475,6 @@ a.arrow-link:hover:before {
 	}
 
 }
-
 
 /* ==================== 08. Process ==================== */
 .process {
@@ -2082,7 +2084,8 @@ font-style: normal;
 }
 
 body {
-font-family: MyWebfont, Verdana, sans-serif;
+	font-family: MyWebfont, Verdana, sans-serif;
+}
 
 /* this is social button css */
 

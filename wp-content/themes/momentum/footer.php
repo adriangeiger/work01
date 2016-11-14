@@ -57,20 +57,20 @@
 	<a href="#top" class="scrollto"><i class="back-top fa fa-chevron-up"></i></a>
 </div>
 
-<?php if ( $t->options->get( 'footerSocialLinks' ) ) : ?>
+<?php /*if ( $t->options->get( 'footerSocialLinks' ) ) : */?><!--
 
 	<footer class="social-footer">
 		<div class="row">
 			<div class="twelve col sf-icons">
 
-				<?php $t->content->socialLinks( $t->options->get( 'footerSocialLinks' ), 'footer' ); ?>
+				<?php /*$t->content->socialLinks( $t->options->get( 'footerSocialLinks' ), 'footer' ); */?>
 
-				<p class="uber"><?php _e( 'Connect with us' ,'Pixelentity Theme/Plugin'); ?></p>
+				<p class="uber"><?php /*_e( 'Connect with us' ,'Pixelentity Theme/Plugin'); */?></p>
 			</div>
 		</div>
 	</footer>
 
-<?php endif; ?>
+--><?php /*endif; */?>
 
 
 <footer class="footer">

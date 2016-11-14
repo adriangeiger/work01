@@ -178,6 +178,10 @@ html {
 	.mobile .admin-bar .top-bar {
 		top: 42px;
 	}
+
+	.padding-bottom-normal {
+		padding-bottom: 80px;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -185,8 +189,14 @@ html {
 	.mobile .admin-bar .top-bar {
 		top: 0;
 	}
-}
 
+	.padding-bottom-normal {
+		padding-bottom: 80px;
+	}
+}
+.padding-bottom-normal {
+	padding-bottom: 80px;
+}
 .gallery-link a {
 	cursor: pointer;
 }

@@ -34,7 +34,7 @@
 
 		<div id="top"></div>
 			
-		<div class="top-bar tb-large <?php if ( is_page() && 'yes' === $meta->menu->transparent ) echo 'tb-transp'; ?>">
+		<div class="top-bar tb-large tb-transp">
 
 			<div class="row">
 				<div class="twelve col">
