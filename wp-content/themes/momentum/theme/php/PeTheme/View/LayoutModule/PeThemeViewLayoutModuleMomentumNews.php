@@ -1,23 +1,27 @@
 <?php
 
-class PeThemeViewLayoutModuleMomentumProcess extends PeThemeViewLayoutModuleContainer {
+class PeThemeViewLayoutModuleMomentumNews extends PeThemeViewLayoutModule {
 
 	public function messages() {
 		return
 			array(
-				  "title" => "",
-				  "type" => __("Process",'Pixelentity Theme/Plugin')
-				  );
+				"title" => "",
+				"type" => __("News",'Pixelentity Theme/Plugin')
+			);
 	}
 
 	public function fields() {
-		return
+
+		$fields = peTheme()->data->customPostTypeMbox('post');
+		$fields = $fields["content"];
+
+		$fields = array_merge(
 			array(
 				"title" => array(
 					"label"       => __("Title",'Pixelentity Theme/Plugin'),
 					"type"        => "Text",
 					"description" => __("Section title.",'Pixelentity Theme/Plugin'),
-					"default"     => __("Process",'Pixelentity Theme/Plugin')
+					"default"     => '',
 				),
 				"name" => array(
 					"label"       => __("Link Name",'Pixelentity Theme/Plugin'),
@@ -36,16 +40,6 @@ class PeThemeViewLayoutModuleMomentumProcess extends PeThemeViewLayoutModuleCont
 					"type"        => "Upload",
 					"description" => __("Background image of the section.",'Pixelentity Theme/Plugin'),
 					"default"     => '',
-				),
-				"type" => array(
-					"label"       => __("Type",'Pixelentity Theme/Plugin'),
-					"type"        => "RadioUI",
-					"description" => __("Choose between insights and about type.",'Pixelentity Theme/Plugin'),
-					"options"     => array(
-						__( 'Insights' ,'Pixelentity Theme/Plugin')   => 'insights',
-						__( 'About' ,'Pixelentity Theme/Plugin')  => 'about',
-					),
-					"default"     => 'insights',
 				),
 				"typography" => array(
 					"label"       => __("Typography color",'Pixelentity Theme/Plugin'),
@@ -86,27 +80,46 @@ class PeThemeViewLayoutModuleMomentumProcess extends PeThemeViewLayoutModuleCont
 					"description" => __("Content",'Pixelentity Theme/Plugin'),
 					"default"     => ""
 				),
-			);
+				'display' => array(
+					"label"       => __("Display mode",'Pixelentity Theme/Plugin'),
+					"type"        => "RadioUI",
+					"description" => __("In what mode should projects be displayed.",'Pixelentity Theme/Plugin'),
+					"options"     => array(
+						__( 'Carousel' ,'Pixelentity Theme/Plugin') => 'carousel',
+						__( 'Grid' ,'Pixelentity Theme/Plugin')  => 'grid',
+					),
+					"default"     => 'carousel',
+				),
+				'lightbox' => array(
+					"label"       => __("Lightbox",'Pixelentity Theme/Plugin'),
+					"type"        => "RadioUI",
+					"description" => __("Specify whether projects should be opened in lightbox or displayed as a single-project pages instead.",'Pixelentity Theme/Plugin'),
+					"options"     => array(
+						__( 'On' ,'Pixelentity Theme/Plugin')  => 'on',
+						__( 'Off' ,'Pixelentity Theme/Plugin') => 'off',
+					),
+					"default"     => 'on',
+				),
+			),
+			$fields
+		);
+
+		unset( $fields['pager'] );
+
+		return $fields;
+
 	}
 
 	public function name() {
-		return __("Process",'Pixelentity Theme/Plugin');
+		return __("News",'Pixelentity Theme/Plugin');
 	}
 
 	public function type() {
 		return __("Section",'Pixelentity Theme/Plugin');
 	}
 
-	public function create() {
-		return "MomentumProcessItem";
-	}
-
-	public function force() {
-		return "MomentumProcessItem";
-	}
-	
-	public function allowed() {
-		return "processitem";
+	public function templateName() {
+		return "news";
 	}
 
 	public function group() {
@@ -114,38 +127,22 @@ class PeThemeViewLayoutModuleMomentumProcess extends PeThemeViewLayoutModuleCont
 	}
 
 	public function setTemplateData() {
-		// override setTemplateData so to also pass the item array to the template file
-		// this way the markup for the child blocks can also be generated in the container/parent template
-		// We're not interested in builder related settings so we rebuild the array
-		// to only include the data we going to use.
-		
-		$items = array();
-		if ( ! empty( $this->conf->items ) ) {
-			foreach ( $this->conf->items as $item ) {
-				$item = (object) shortcode_atts(
-					array(
-						'icon'        => '',
-						'title'       => '',
-						'description'    => '',
-					),
-					$item["data"]
-				);
-				$items[] = $item;
-			}
-		}
 
-		// we also render (parent) shortcodes here to keep template file clean;
-		$this->data->content = empty( $this->data->content ) ? "" : do_shortcode( apply_filters( "the_content", $this->data->content ) );
-
-		peTheme()->template->data( $this->data, $items, $this->conf->bid );
 	}
 
 	public function template() {
-		peTheme()->get_template_part( "viewmodule", empty( $this->data->layout ) ? "process" : $this->data->layout );
+		$t =& peTheme();
+		if ($loop = $t->data->customLoop($this->data)) {
+			$t->template->data($this->data,$this->conf->bid);
+			$t->get_template_part("viewmodule",$this->templateName());
+			$t->content->resetLoop();
+		}
 	}
 
 	public function tooltip() {
-		return __( "Use this block to add a Process section." ,'Pixelentity Theme/Plugin');
+		return __("Add a News block.",'Pixelentity Theme/Plugin');
 	}
 
 }
+
+?>

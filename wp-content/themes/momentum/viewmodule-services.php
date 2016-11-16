@@ -49,8 +49,6 @@
 								<h3 class="h7"><?php echo $item->title; ?></h3>
 
 							<?php endif; ?>
-							
-							<!--
 
 							<?php if ( ! empty( $item->subtitle ) ) : ?>
 
@@ -58,7 +56,7 @@
 
 							<?php endif; ?>
 
-							<hr> -->
+							<hr>
 
 							<?php if ( ! empty( $item->features ) ) : ?>
 

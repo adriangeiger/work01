@@ -22,7 +22,7 @@ ins {
 
 .blog section p,
 .section-type-blog p,
-.archive section p, {
+.archive section p{
 	margin-bottom:1em;
 }
 
