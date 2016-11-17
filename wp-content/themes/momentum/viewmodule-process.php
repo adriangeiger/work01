@@ -29,7 +29,6 @@
 	<?php endif; ?>
 
 	<?php $content =& $t->content; ?>
-
 	<?php if (!empty($items)) : ?>
 
 		<div class="row equal">
@@ -83,6 +82,6 @@
 <script>
 	$('.item-container').click(function(evt){
 		$(evt.currentTarget).toggleClass('more-info');
-		console.log(evt.currentTarget)
+		console.log(evt)
 	})
 </script>
