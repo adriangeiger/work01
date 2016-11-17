@@ -172,7 +172,7 @@ html {
 .mobile .bg-img.fixed {
 	background-attachment: scroll;
 }
-changes
+
 @media screen and (max-width: 782px) {
 	.desktop .admin-bar .top-bar,
 	.mobile .admin-bar .top-bar {
