@@ -34,7 +34,7 @@ Tags: photoblogging
 
 
 /*WPML*/
-    
+
 /*drop list*/
 #lang_sel,
 #lang_sel_click{
@@ -57,18 +57,18 @@ Tags: photoblogging
 #lang_sel ul ul li a:hover,
 #lang_sel ul ul li,
 #lang_sel ul ul li a:hover span{
-    color:#666;
+	color:#666;
 }
 
 #lang_sel ul ul li:hover a,
 #lang_sel_click ul ul li:hover a{
-    color:#666;
-    background-color:#fff;
+	color:#666;
+	background-color:#fff;
 }
 
-#lang_sel a, 
+#lang_sel a,
 #lang_sel a:visited{
-    border-color:#e9e9e9;
+	border-color:#e9e9e9;
 }
 
 .sidebar #lang_sel li{
@@ -80,13 +80,13 @@ Tags: photoblogging
 	height:34px;
 }
 
-#lang_sel ul ul a, 
+#lang_sel ul ul a,
 #lang_sel ul ul a:visited,
-#lang_sel_click ul ul a, 
+#lang_sel_click ul ul a,
 #lang_sel_click ul ul a:visited {
-    background-color:#fff;
-    border-color:#e9e9e9;
-    color:#666;
+	background-color:#fff;
+	border-color:#e9e9e9;
+	color:#666;
 }
 
 
@@ -113,8 +113,8 @@ Tags: photoblogging
 .widget #lang_sel_click a.lang_sel_sel:hover,
 .widget #lang_sel_click ul ul li:hover a{
 	background-color:#fdfdfd;
-    border-color:#e9e9e9;
-    color:#666;
+	border-color:#e9e9e9;
+	color:#666;
 }
 
 .widget #lang_sel ul ul li:hover a span{
@@ -166,8 +166,8 @@ Tags: photoblogging
 }
 
 #lang_sel a span.icl_lang_sel_current{
-    /*color:#c0c0c0 !important;*/
-    display:inline;
+	/*color:#c0c0c0 !important;*/
+	display:inline;
 }
 
 #lang_sel a span{
@@ -203,23 +203,23 @@ Tags: photoblogging
 }
 
 #lang_sel_list{
-    position:absolute;
-    top:10px;
-    right:30px;
-    width:auto;
+	position:absolute;
+	top:10px;
+	right:30px;
+	width:auto;
 }
 
 #lang_sel_list ul{
-    width:auto;
-    border:none;
+	width:auto;
+	border:none;
 }
 
 #lang_sel_list li{
-    width:auto;
+	width:auto;
 }
 
 #lang_sel_list a, #lang_sel_list a:visited{
-    border:none;
+	border:none;
 }
 
 #lang_sel img.iclflag{
@@ -230,17 +230,17 @@ Tags: photoblogging
 
 #lang_sel_list a.lang_sel_sel,
 #lang_sel_list a span{
-    color:#c2c2c2 !important;
+	color:#c2c2c2 !important;
 }
 
 #lang_sel_list a:hover span{
-    color:#D73300 !important;
+	color:#D73300 !important;
 }
 
 #lang_sel_list a span.icl_lang_sel_current,
 #lang_sel_list a:hover span.icl_lang_sel_current{
-    color:#333 !important;
-    cursor:default;
+	color:#333 !important;
+	cursor:default;
 }
 
 .pe-wpml-lang-selector{
@@ -256,7 +256,7 @@ Tags: photoblogging
 		display:none;
 	}
 
-	nav #lang_sel a.lang_sel_sel, 
+	nav #lang_sel a.lang_sel_sel,
 	nav #lang_sel_click a.lang_sel_sel{
 		width:38px;
 		padding-left:4px;
@@ -266,14 +266,14 @@ Tags: photoblogging
 		width:auto;
 	}
 
-	nav #lang_sel ul ul a,  
+	nav #lang_sel ul ul a,
 	nav #lang_sel_click ul ul a,
 	nav #lang_sel_click ul ul{
 		width:38px;
 		padding-left:4px;
 	}
 
-	nav #lang_sel ul ul a,  
+	nav #lang_sel ul ul a,
 	nav #lang_sel_click ul ul a{
 		height:26px;
 	}
@@ -309,32 +309,15 @@ Tags: photoblogging
 
 
 
-/* This is gonna define the layout of search box */ 
-@media screen and (min-width: 500px) {
-.header-search {
-display: block;
-float:right;
-margin-top:14px;
-margin-bottom:-12px;
-margin-right:3px;
-margin-left: 20px;
-}
-
-input {
-    color: #fff;
-    font-size: 12px;
-    text-decoration: none;
-	/*border: 0.2em solid rgba(0,0,0,0.3);*/
-    border-radius: 4px;
-    background-color:rgba(0,0,0,0.3);
-    padding-left: 5px;
-    font-family: 'Sans_Plain'!important;;
-    font-weight: 700;
-
-    
-
-}
-
+/* This is gonna define the layout of search box */
+@media screen and (min-width: 600px) {
+	.header-search {
+		display: block;
+		float:right;
+		margin-top:2px;
+		margin-bottom:-12px;
+		margin-right:3px;
+	}
 }
 
 input.search::-webkit-input-placeholder {color:#5b767b;}
@@ -342,9 +325,10 @@ input.search::-moz-placeholder          {color:#5b767b;}/* Firefox 19+ */
 input.search:-moz-placeholder           {color:#5b767b;}/* Firefox 18- */
 input.search:-ms-input-placeholder      {color:#5b767b;}
 
+
 /* This is definition of search button */
 #searchsubmit {
-background-color: #fff;
-color: #000;
-border: 1px solid #ff7700
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #ff7700
 }
