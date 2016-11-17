@@ -177,6 +177,7 @@ html {
 	.desktop .admin-bar .top-bar,
 	.mobile .admin-bar .top-bar {
 		top: 42px;
+		color:#fff;
 	}
 
 	.padding-bottom-normal {
