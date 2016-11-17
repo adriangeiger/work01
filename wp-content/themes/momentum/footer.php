@@ -83,5 +83,11 @@
 
 <?php $t->footer->wp_footer(); ?>
 
+<script>
+	$('.item-container').click(function(evt){
+		$(evt.currentTarget).toggleClass('more-info');
+	})
+</script>
+
 </body>
 </html>

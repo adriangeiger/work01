@@ -42,11 +42,10 @@
 				<? if ($data->type == "insights"): ?>
 					<? $cnt = 1 ?>
 					<?php foreach ($items as $item): ?>
-
 						<div class="item-container">
-							<div class="circle">
+							<div class="circle c-bg-<?=$cnt?>">
 								<div class="item-content">
-									<div class="item-title"><?php echo $item->title; ?></div>
+									<div class="item-title"><?php echo $item->title; ?> </div>
 									<div class="item-description"><?php echo $item->description; ?></div>
 								</div>
 							</div>
@@ -57,15 +56,12 @@
 					<? $cnt = 1 ?>
 					<?php foreach ($items as $item): ?>
 						<div class="item-container">
-							<!--<input id="about-<?/*= $cnt; */?>" type="checkbox">
-                            <label for="about-<?/*= $cnt; */?>" class="switcher">-->
 							<div class="square">
 								<div class="item-content">
 									<div class="item-title"><?php echo $item->title; ?> </div>
 									<div class="item-description"><?php echo $item->description; ?></div>
 								</div>
 							</div>
-							<!--</label>-->
 						</div>
 						<? $cnt++ ?>
 					<?php endforeach; ?>
@@ -78,10 +74,3 @@
 	<?php endif; ?>
 
 </section>
-
-<script>
-	$('.item-container').click(function(evt){
-		$(evt.currentTarget).toggleClass('more-info');
-		console.log(evt)
-	})
-</script>
