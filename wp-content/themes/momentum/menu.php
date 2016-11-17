@@ -11,15 +11,25 @@
 
 	<div class="tb-logo">
 
+		<?php if ( ! empty( $site_title ) ) : ?>
+
+			<h1><a href="<?php echo home_url( '/' ); ?>"><?php echo $site_title; ?></a></h1>
+
+		<?php endif; ?>
+
 		<?php if ( ! empty( $logo ) ) : ?>
 
 			<a href="<?php echo home_url( '/' ); ?>"><img src="<?php echo $logo; ?>" alt="logo"></a>
 
 		<?php endif; ?>
 
-		<?php if ( ! empty( $site_title ) ) : ?>
+	</div>
 
-			<h1><a href="<?php echo home_url( '/' ); ?>"><?php echo $site_title; ?></a></h1>
+	<div class="tb-logo_small">
+
+		<?php if ( ! empty( $logo ) ) : ?>
+
+			<a href="<?php echo home_url( '/' ); ?>"><img src="<?php echo $logo; ?>" alt="logo"></a>
 
 		<?php endif; ?>
 
