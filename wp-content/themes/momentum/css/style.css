@@ -351,7 +351,7 @@ a i {
 
 .serif_white {
 	font-family: 'Sans_Extra_Light_Italic', Arial, Helvetica, sans-serif !important;
-	font-size: 30px;
+	font-size: 36px;
 	font-style: normal;
 	font-weight: 400;
 	letter-spacing: 0;
@@ -1077,6 +1077,10 @@ a.arrow-link:hover:before {
 	margin: 0 10px 10px 0;
 }
 
+.tb-small .tb-logo h1{
+	display: none;
+}
+
 /* Hiding the the toggle */
 #toggle,
 .toggle {
@@ -1386,6 +1390,7 @@ a.arrow-link:hover:before {
 
 /* ==================== 04. Introduction ==================== */
 .intro {
+	height: 400px !important;
 	background: #ffffff;
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -2082,17 +2087,7 @@ a.arrow-link:hover:before {
 	cursor: pointer;
 }
 
-@media screen and (max-width: 950px) {
-	.item-container{
-		width: 40%;
-	}
-}
-@media screen and (max-width: 600px) {
-	.item-container{
-		width: 70%;
-	}
 
-}
 
 .circle {
 	width: 100%;
@@ -2113,114 +2108,114 @@ a.arrow-link:hover:before {
 	background-image: url(/wp-content/themes/momentum/images/numbers/1_gr.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 .c-bg-1:hover{
 	background-image: url(/wp-content/themes/momentum/images/numbers/1_r.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 .more-info .c-bg-1{
 	background-image: url(/wp-content/themes/momentum/images/numbers/1_r.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 
 .c-bg-2{
 	background-image: url(/wp-content/themes/momentum/images/numbers/2_gr.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 .c-bg-2:hover{
 	background-image: url(/wp-content/themes/momentum/images/numbers/2_r.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 .more-info .c-bg-2{
 	background-image: url(/wp-content/themes/momentum/images/numbers/2_r.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 
 .c-bg-3{
 	background-image: url(/wp-content/themes/momentum/images/numbers/3_gr.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 .c-bg-3:hover{
 	background-image: url(/wp-content/themes/momentum/images/numbers/3_r.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 .more-info .c-bg-3{
 	background-image: url(/wp-content/themes/momentum/images/numbers/3_r.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 
 .c-bg-4{
 	background-image: url(/wp-content/themes/momentum/images/numbers/4_gr.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 .c-bg-4:hover{
 	background-image: url(/wp-content/themes/momentum/images/numbers/4_r.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 .more-info .c-bg-4{
 	background-image: url(/wp-content/themes/momentum/images/numbers/4_r.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 
 .c-bg-5{
 	background-image: url(/wp-content/themes/momentum/images/numbers/5_gr.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 .c-bg-5:hover{
 	background-image: url(/wp-content/themes/momentum/images/numbers/5_r.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 .more-info .c-bg-5{
 	background-image: url(/wp-content/themes/momentum/images/numbers/5_r.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 
 .c-bg-6{
 	background-image: url(/wp-content/themes/momentum/images/numbers/6_gr.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 .c-bg-6:hover{
 	background-image: url(/wp-content/themes/momentum/images/numbers/6_r.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 .more-info .c-bg-6{
 	background-image: url(/wp-content/themes/momentum/images/numbers/6_r.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 60%;
+	background-size: 50%;
 }
 
 
@@ -2264,6 +2259,13 @@ a.arrow-link:hover:before {
 
 .item-title{
 	font-size: 1.6em;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 80%;
 }
 
 .item-content{
@@ -2280,14 +2282,51 @@ a.arrow-link:hover:before {
 	display: block;
 }
 
-
-
 .item-container.more-info .square {
 	background: #b3b3b3;
 }
 
 .item-container.more-info .square:hover {
 	background: #b3b3b3;
+}
+
+@media screen and (max-width: 950px) {
+	.item-container{
+		width: 40%;
+	}
+}
+@media screen and (max-width: 600px) {
+	.item-container{
+		width: 70%;
+	}
+	.serif,
+	.serif_white{
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.item-container{
+		width: 80%;
+	}
+
+	.item-description {
+		line-height: 1.3em;
+	}
+
+	.title h1, .title h2{
+		font-size: 30px;
+	}
+	.serif,
+	.serif_white{
+		font-size: 24px;
+	}
+
+	h1.white_header{
+		font-size: 40px;
+	}
+
+
 }
 
 /* This is font code for all three fonts */
@@ -2363,3 +2402,10 @@ body {
 	font-weight:bold;
 	text-decoration:none;
 }
+
+.contact-table
+{ min-width:40em !important;
+vertical-align:top;	} 
+
+.table-text
+{vertical-align:top; }
