@@ -103,11 +103,13 @@
 			$this.owlCarousel({
 				pagination: false,
 				navigation: false,
-				items: 8,
+				items: 6,
 				itemsDesktop: [1000,3],
 				itemsTablet: [600,2],
 				itemsMobile: [321,1],
-				itemsScaleUp: true
+				itemsScaleUp: true,
+				autoPlay: true,
+				stopOnHover: true
 				
 			});
 

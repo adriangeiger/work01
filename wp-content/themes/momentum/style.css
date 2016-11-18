@@ -1,11 +1,11 @@
 /*
 
-Theme Name: Momentum
-Theme URI: http://themeforest.net
+Theme Name: Leaderseye
+Theme URI:
 Description: Responsive One Page Portfolio
 Version: 1.1.4
-Author: bitfade
-Author URI: http://themeforest.net/user/bitfade
+Author:
+Author URI:
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: photoblogging
@@ -293,31 +293,32 @@ Tags: photoblogging
 	}
 }
 
-
-
-
 /* to go on top of wp admin bar */
 .peFlareLightbox {
 	z-index: 99999 !important;
 }
 
-
-
-
-
-
-
-
-
 /* This is gonna define the layout of search box */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
 	.header-search {
-		display: block;
-		float:right;
-		margin-top:2px;
-		margin-bottom:-12px;
-		margin-right:3px;
+		display: inline-block;
+		margin-left: 20px;
+		font-family: 'Sans_Extra_Light', Helvetica, Arial, sans-serif !important;
+		padding: 17px 0;
 	}
+
+	input {
+		color: #5b767b;
+		font-size: 14px;
+		text-decoration: none;
+		/*border: 0.2em solid rgba(0,0,0,0.3);*/
+		border-radius: 4px;
+		/*background-color:rgba(0,0,0,0.3);*/
+		padding-left: 5px;
+		font-family: 'Sans_Extra_Light', Helvetica, Arial, sans-serif !important;
+		font-weight: 700;
+	}
+
 }
 
 input.search::-webkit-input-placeholder {color:#5b767b;}
@@ -325,10 +326,15 @@ input.search::-moz-placeholder          {color:#5b767b;}/* Firefox 19+ */
 input.search:-moz-placeholder           {color:#5b767b;}/* Firefox 18- */
 input.search:-ms-input-placeholder      {color:#5b767b;}
 
-
 /* This is definition of search button */
 #searchsubmit {
 	background-color: #fff;
 	color: #000;
 	border: 1px solid #ff7700
+}
+
+.header-row{
+	display: inline-block;
+	float: right;
+	padding-top: 23px;
 }

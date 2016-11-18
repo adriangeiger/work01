@@ -1098,15 +1098,15 @@ a.arrow-link:hover:before {
 
 /* Styling for the main menu items */
 .top-bar .menu {
-	float: right;
+	display: inline-block;
 	text-align: left;
+	float: left;
 	font-family: 'Sans_Extra_Light', 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
 	line-height: 25px;
-	margin-top: 27px;
 }
 
 .menu ul {
@@ -1185,14 +1185,14 @@ a.arrow-link:hover:before {
 
 	/* The toggle */
 	.toggle {
-		display: block;
+		padding: 3px 0;
+		display: inline-block;
 		position: relative;
 		cursor: pointer;
 		-webkit-touch-callout: none;
 		-webkit-user-select: none;
 		user-select: none;
 		color: #777777;
-		float: right;
 		font-family: 'FontAwesome';
 		text-align: center;
 		font-size: 14px;
@@ -1234,7 +1234,6 @@ a.arrow-link:hover:before {
 		display: none;
 		filter: alpha(opacity=0);
 		opacity: 0;
-		margin-top: 50px;
 		width: 100%;
 		position: absolute;
 		right: 0;
@@ -1277,17 +1276,30 @@ a.arrow-link:hover:before {
 		top: 0;
 		left: 0;
 	}
+	.header-search {
+		display: inline-block;
+		font-family: 'Sans_Extra_Light', Helvetica, Arial, sans-serif !important;
+		margin-top: 0px !important;
+		padding: 18px 0 !important;
+	}
+	.header-row{
+		padding-top: 0px !important;
+	}
+
 
 }
 
 @media only screen and (max-width: 480px) {
-
+	.search.form-control{
+		width: 70px;
+	}
 	.tb-logo {
 		margin-left: 5px;
 	}
 
 	.toggle {
 		margin-right: -10px;
+		padding: 5px 0;
 	}
 
 	.top-bar .menu {
@@ -2017,23 +2029,6 @@ a.arrow-link:hover:before {
 
 }
 
-/* This is gonna define the layout of search box */
-@media screen and (min-width: 600px) {
-	.header-search {
-		display: block;
-		float:right;
-		margin-top:2px;
-		margin-bottom:-12px;
-		margin-right:3px;
-	}}
-
-/* This is definition of search button */
-#searchsubmit {
-	background-color: #fff;
-	color: #000;
-	border: 1px solid #ff7700
-}
-
 .news-square{
 	position: relative;
 	display: block;
@@ -2290,7 +2285,7 @@ a.arrow-link:hover:before {
 	background: #b3b3b3;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1050px) {
 	.item-container{
 		width: 40%;
 	}

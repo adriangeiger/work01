@@ -37,11 +37,11 @@
 
 <?php endif; ?>
 
-<input type="checkbox" id="toggle" />
-<label for="toggle" class="toggle"></label>
-
-<nav class="menu">
-
-	<?php $t->menu->show("main"); ?>
-
-</nav>
+<div class="header-row">
+	<div class="header-search"><?php get_search_form(); ?></div>
+	<input type="checkbox" id="toggle" />
+	<label for="toggle" class="toggle"></label>
+	<nav class="menu">
+		<?php $t->menu->show("main"); ?>
+	</nav>
+</div>
