@@ -39,10 +39,12 @@
             ));
             foreach ($posts as $post) {
                 setup_postdata($post); ?>
-                <div class="grid-ms news-square">
+                <a href="/blog/">
+                    <div class="grid-ms news-square">
                         <div class="title blue"><?= $post->post_title; ?></div>
                         <div class="content"><?= $post->post_content; ?></div>
-                </div>
+                    </div>
+                </a>
                 <?
             }
             wp_reset_postdata();
