@@ -1,7 +1,7 @@
 <?php $t =& peTheme(); ?>
 <?php $content =& $t->content; ?>
 <?php $meta =& $content->meta(); ?>
-<?php $t->layout->pageTitle = __("The blog.",'Pixelentity Theme/Plugin'); ?>
+<?php $t->layout->pageTitle = __("Blog",'Pixelentity Theme/Plugin'); ?>
 <?php get_header(); ?>
 
 <section class="blog">
