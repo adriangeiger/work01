@@ -86,12 +86,12 @@
 }
 
 .post pre code span {
-	color: tomato;
+	color: #d51030;
 }
 
 /* Post title */
 .post-title a:hover {
-	color: #ff4800;
+	color: #d51030;
 }
 
 /* Post meta */
