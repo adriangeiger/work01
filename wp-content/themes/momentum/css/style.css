@@ -47,7 +47,9 @@ p {
 }
 
 p.white {
+	font-size: 15px;
 	color:#fff;
+	letter-spacing: 1px;
 }
 /* HR */
 
@@ -58,6 +60,13 @@ p.white {
 	height: 2px;
 	background: #d51030;
 	margin-bottom: 75px;
+}
+
+
+/* footer link settings */
+
+.red:hover{
+	color:#d51030;
 }
 
 /* Headings */
@@ -215,6 +224,39 @@ h6, .h6 {
 
 }
 
+/* CONTACT BUTTONS SOCIAL */
+
+.round-button_social {
+	width: 25%;
+	float: left;
+	margin: 3%;
+}
+.round-button-circle_social {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+    overflow:hidden;  
+    background: #b3b3b3; 
+
+}
+.round-button-circle_social:hover {
+	background:#d51030;
+}
+.round-button_social a {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+    color:#fff;
+	text-align:center;
+    font-size:2.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
 /* STYLING FONTS */
 
 h1.blue {
@@ -237,15 +279,19 @@ h1.white_header {
 	font-style: normal;
 	text-transform: initial;
 }
+
 h1.white_2
 {
 	color: #fff;
 	font-family: 'Sans_Extra_Light', Arial, Helvetica, sans-serif !important;
-	font-size: 25px;
+	font-size: 40px;
 	font-style: normal;
 }
 
-
+h3.blue
+{ color: #5b767b;
+font-family: 'Sans_Plain' !important;
+}
 
 /* Links */
 a {
@@ -254,7 +300,7 @@ a {
 }
 
 a:hover {
-	color: #d51030;
+	color: #fff;
 }
 
 /* Smooth hover effects */
@@ -347,6 +393,7 @@ a i {
 	font-weight: 400;
 	letter-spacing: 0;
 	text-transform: none;
+	line-height: 1.3em;
 }
 
 .serif_white {
@@ -480,7 +527,7 @@ input::-moz-focus-inner {
 	min-height: 50px;
 	padding: 10px;
 	border: 0px solid #f4f4f4;
-	background: #f4f4f4;
+	background: #fff;
 	margin-bottom: 10px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -1469,7 +1516,7 @@ a.arrow-link:hover:before {
 
 .icon-nav em {
 	font-style: normal;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 400;
 	line-height: 20px;
 	color: #000;
@@ -1722,7 +1769,7 @@ a.arrow-link:hover:before {
 .contact {
 	background: #777777;
 	background-image: url("../../../uploads/2014/06/LeadersEye_Background_hell.jpg");
-	padding-top: 100px;
+	padding-top: 20px;
 	padding-bottom: 100px;
 }
 
@@ -1772,7 +1819,8 @@ a.arrow-link:hover:before {
 	display: block;
 	width: auto;
 	margin-bottom: 25px;
-
+	margin-top: 10px;
+font-size:15px;
 }
 
 
@@ -2056,6 +2104,7 @@ a.arrow-link:hover:before {
 }
 
 .news-square .content{
+	font-size: 15px;
 	height: 130px;
 	overflow-y: hidden;
 	line-height: 1.5em;
@@ -2222,6 +2271,10 @@ a.arrow-link:hover:before {
 	vertical-align: middle;
 }
 
+.circle .item-description {
+	color: #ffffff;
+}
+
 .square {
 	width: 100%;
 	background: #8c8c8c;
@@ -2250,6 +2303,7 @@ a.arrow-link:hover:before {
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	width: 80%;
+	color: #8c8c8c;
 }
 
 .item-title{
@@ -2278,11 +2332,11 @@ a.arrow-link:hover:before {
 }
 
 .item-container.more-info .square {
-	background: #b3b3b3;
+	background: #fff;
 }
 
 .item-container.more-info .square:hover {
-	background: #b3b3b3;
+	background: #fff;
 }
 
 @media screen and (max-width: 1050px) {
@@ -2374,8 +2428,7 @@ body {
 	padding-bottom: 300%;
 	border-radius: 50%;
 	overflow:hidden;
-
-	background: #b3b3b3;
+    background:#8c8c8c;
 	box-shadow: none;
 }
 .round-button-circle:hover {
@@ -2398,9 +2451,75 @@ body {
 	text-decoration:none;
 }
 
-.contact-table
-{ min-width:40em !important;
-vertical-align:top;	} 
 
-.table-text
-{vertical-align:top; }
+/* CONTACTS TABELLE */
+
+.img_phone{
+	width: 100%;
+	max-width: 200px;
+}
+
+
+
+table, thead, tbody, th, td, tr { 
+		padding: 15px;
+	}
+	
+	
+	.contact-table{ 
+	
+	 text-align: left;
+	 }	
+
+@media only screen and (min-width: 1128px) {
+	
+	.contact-table{ 
+	
+	 margin-left: 220px;
+	 text-align: left;
+	 }
+
+	} 
+
+   
+@media 
+only screen and (max-width: 870px){
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+		padding: 5px;
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+		
+	.contact-table{ 
+	
+ 	text-align: center;
+	 }
+	 
+	td  {
+		position: relative;
+		padding-left: 0%; 
+	}
+	
+/*this is buttons position css*/	
+.buttons-al
+{
+    display: block;
+    margin-left: 25%;
+    width: 80%;
+}
+
+.hoverlink:hover
+{
+  color: #d51030 !important;
+} 
+
+
+
