@@ -34,20 +34,20 @@
 		<div class="row equal">
 			<div class="container">
 				<?php if ($data->type == "insights"): ?>
-					<? $cnt = 1 ?>
+					<?php $cnt = 1 ?>
 					<?php foreach ($items as $item): ?>
 						<div class="item-container">
-							<div class="circle c-bg-<?=$cnt?>">
+							<div class="circle c-bg-<?php echo $cnt;?>">
 								<div class="item-content">
 									<div class="item-title"><?php echo $item->title; ?> </div>
 									<div class="item-description"><?php echo $item->description; ?></div>
 								</div>
 							</div>
 						</div>
-						<? $cnt++ ?>
+						<?php $cnt++ ?>
 					<?php endforeach; ?>
 				<?php elseif ($data->type == "about"): ?>
-					<? $cnt = 1 ?>
+					<?php $cnt = 1 ?>
 					<?php foreach ($items as $item): ?>
 						<div class="item-container">
 							<div class="square">
@@ -57,7 +57,7 @@
 								</div>
 							</div>
 						</div>
-						<? $cnt++ ?>
+						<?php $cnt++ ?>
 					<?php endforeach; ?>
 				<?php endif; ?>
 
