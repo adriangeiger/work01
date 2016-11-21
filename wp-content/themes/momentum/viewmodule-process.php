@@ -33,13 +33,7 @@
 
 		<div class="row equal">
 			<div class="container">
-				<!--<section class="block-of-text">
-					<h2>Block of text</h2>
-					<p>
-						I'm a block of text!
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quia doloremque tempora placeat officia ex obcaecati tenetur deserunt repudiandae praesentium.</p>
-				</section>-->
-				<? if ($data->type == "insights"): ?>
+				<?php if ($data->type == "insights"): ?>
 					<? $cnt = 1 ?>
 					<?php foreach ($items as $item): ?>
 						<div class="item-container">
@@ -52,7 +46,7 @@
 						</div>
 						<? $cnt++ ?>
 					<?php endforeach; ?>
-				<? elseif ($data->type == "about"): ?>
+				<?php elseif ($data->type == "about"): ?>
 					<? $cnt = 1 ?>
 					<?php foreach ($items as $item): ?>
 						<div class="item-container">
@@ -65,7 +59,7 @@
 						</div>
 						<? $cnt++ ?>
 					<?php endforeach; ?>
-				<? endif; ?>
+				<?php endif; ?>
 
 			</div>
 

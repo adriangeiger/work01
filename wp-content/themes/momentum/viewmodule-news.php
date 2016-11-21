@@ -30,7 +30,7 @@
 
     <div class="row relative">
         <div class="owlcarousel work-slider">
-            <?
+            <?php
             $posts = get_posts(array(
                 'offset' => 0,
                 'orderby' => 'post_date',
@@ -41,11 +41,11 @@
                 setup_postdata($post); ?>
                 <a href="/blog/">
                     <div class="grid-ms news-square">
-                        <div class="title blue"><?= $post->post_title; ?></div>
-                        <div class="content"><?= $post->post_content; ?></div>
+                        <div class="title blue"><?php echo $post->post_title; ?></div>
+                        <div class="content"><?php echo $post->post_content; ?></div>
                     </div>
                 </a>
-                <?
+                <?php
             }
             wp_reset_postdata();
             ?>
