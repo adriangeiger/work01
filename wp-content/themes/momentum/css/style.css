@@ -2087,7 +2087,7 @@ font-size:15px;
 	cursor: pointer;
 }
 
-@media screen and (min-width: 890px) {
+@media screen and (min-width: 950px) {
 	.news-square{
 		max-width: 300px;
 		margin: auto;

@@ -170,8 +170,8 @@
 				navigation: false,
 				items: 3,
 				itemsDesktop: [1000,3],
-				itemsTablet: [600,2],
-				itemsMobile: [321,1]
+				itemsTablet: [800,2],
+				itemsMobile: [520,1]
 			});
 
 			$this.siblings(".work-next").click(function(){
